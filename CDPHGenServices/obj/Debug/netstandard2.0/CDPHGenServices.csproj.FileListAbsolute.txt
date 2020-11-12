@@ -1,0 +1,9 @@
+C:\Users\jkhan1\Projects\CDPH\CDPHGenServices\bin\Debug\netstandard2.0\CDPHGenServices.deps.json
+C:\Users\jkhan1\Projects\CDPH\CDPHGenServices\bin\Debug\netstandard2.0\CDPHGenServices.dll
+C:\Users\jkhan1\Projects\CDPH\CDPHGenServices\bin\Debug\netstandard2.0\CDPHGenServices.pdb
+C:\Users\jkhan1\Projects\CDPH\CDPHGenServices\obj\Debug\netstandard2.0\CDPHGenServices.csprojAssemblyReference.cache
+C:\Users\jkhan1\Projects\CDPH\CDPHGenServices\obj\Debug\netstandard2.0\CDPHGenServices.AssemblyInfoInputs.cache
+C:\Users\jkhan1\Projects\CDPH\CDPHGenServices\obj\Debug\netstandard2.0\CDPHGenServices.AssemblyInfo.cs
+C:\Users\jkhan1\Projects\CDPH\CDPHGenServices\obj\Debug\netstandard2.0\CDPHGenServices.csproj.CoreCompileInputs.cache
+C:\Users\jkhan1\Projects\CDPH\CDPHGenServices\obj\Debug\netstandard2.0\CDPHGenServices.dll
+C:\Users\jkhan1\Projects\CDPH\CDPHGenServices\obj\Debug\netstandard2.0\CDPHGenServices.pdb

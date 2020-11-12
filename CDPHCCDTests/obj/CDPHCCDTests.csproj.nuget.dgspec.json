@@ -1,0 +1,273 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHCCDTests\\CDPHCCDTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHCCDService\\CDPHCCDService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHCCDService\\CDPHCCDService.csproj",
+        "projectName": "CDPHCCDService",
+        "projectPath": "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHCCDService\\CDPHCCDService.csproj",
+        "packagesPath": "C:\\Users\\jkhan1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHCCDService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "\\\\rush.edu\\VDI\\AppData\\jkhan1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHGenServices\\CDPHGenServices.csproj": {
+                "projectPath": "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHGenServices\\CDPHGenServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.14.0-beta5, )"
+            },
+            "Microsoft.ApplicationInsights.PerfCounterCollector": {
+              "target": "Package",
+              "version": "[2.14.0-beta5, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.1, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Xml.XmlDocument": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHCCDTests\\CDPHCCDTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHCCDTests\\CDPHCCDTests.csproj",
+        "projectName": "CDPHCCDTests",
+        "projectPath": "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHCCDTests\\CDPHCCDTests.csproj",
+        "packagesPath": "C:\\Users\\jkhan1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHCCDTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "\\\\rush.edu\\VDI\\AppData\\jkhan1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHCCDService\\CDPHCCDService.csproj": {
+                "projectPath": "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHCCDService\\CDPHCCDService.csproj"
+              },
+              "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHGenServices\\CDPHGenServices.csproj": {
+                "projectPath": "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHGenServices\\CDPHGenServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHGenServices\\CDPHGenServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHGenServices\\CDPHGenServices.csproj",
+        "projectName": "CDPHGenServices",
+        "projectPath": "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHGenServices\\CDPHGenServices.csproj",
+        "packagesPath": "C:\\Users\\jkhan1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jkhan1\\Projects\\CDPH\\CDPHGenServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "\\\\rush.edu\\VDI\\AppData\\jkhan1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.10.1, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

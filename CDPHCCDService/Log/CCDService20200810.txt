@@ -1,0 +1,29 @@
+2020-08-10 13:51:08.437 -05:00 [DBG] Uploading CCD: Remote IP Address is: ::1
+2020-08-10 13:53:39.122 -05:00 [INF] File CCD/Swedish/Archive/Swedish_081020185212_9f49cc91-0ae3-4fd4-9521-c4ef00b8150d.xml saved to blob storage path: https://cdphstorage.blob.core.windows.net/ccdupload/CCD/Swedish/Archive/Swedish_081020185212_9f49cc91-0ae3-4fd4-9521-c4ef00b8150d.xml
+2020-08-10 13:53:40.399 -05:00 [ERR] HTTP POST /UploadCCD responded 500 in 162194.3622 ms
+System.Exception: Could not convert to FHIR
+   at CDPHGenServices.CcdToFhireService.ConvertCcdToFhir(Stream ccd, Boolean resetStreamPosition) in C:\Users\jkhan1\Projects\CDPH\CDPHGenServices\CcdToFhireService.cs:line 55
+   at CDPHCCDService.Controllers.CCDController.UploadCCD(List`1 files) in C:\Users\jkhan1\Projects\CDPH\CDPHCCDService\Controllers\CCDController.cs:line 85
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+2020-08-10 13:53:40.407 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Could not convert to FHIR
+   at CDPHGenServices.CcdToFhireService.ConvertCcdToFhir(Stream ccd, Boolean resetStreamPosition) in C:\Users\jkhan1\Projects\CDPH\CDPHGenServices\CcdToFhireService.cs:line 55
+   at CDPHCCDService.Controllers.CCDController.UploadCCD(List`1 files) in C:\Users\jkhan1\Projects\CDPH\CDPHCCDService\Controllers\CCDController.cs:line 85
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.
